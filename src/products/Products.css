@@ -1,0 +1,82 @@
+.menu{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family: 'Cormorant SC', serif;
+}    
+.products{
+    width: 35%;
+    margin-left: 30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+h4{
+    margin-left: 80%;
+}
+
+i{
+  display: flex;
+  justify-content: center;
+}
+
+.price{
+    color: crimson;
+}
+.one{
+    margin-top: 10%;
+}
+.two{
+    margin-top: 8%;
+}
+.menus{
+    margin-left: 2%
+}
+.product{
+    background-color: whitesmoke;
+    height: 97%;
+ border-radius: 20px;
+   
+}
+
+.pepsi{
+    width: 53%;
+    margin-left: 22%
+}
+.sprite{
+    width: 53%;
+    margin-left: 22%
+}
+.onion{
+    width: 55%;
+}
+.tender{
+    width: 55%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+
+.add{
+    width: 20%;
+    margin-left: 40%;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.add:hover{
+    background-color: rgb(210, 51, 51);
+}
+
+@media only screen and (max-width: 400px) {
+    .abc {
+     display: grid;
+    }
+  }
+
+
+
+
+

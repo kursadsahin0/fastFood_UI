@@ -1,0 +1,129 @@
+.logo{
+    width: 10%;
+    margin-left: 5%;
+}
+.rows{
+    background-color: #f6aa0c;
+}
+
+.translate{
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 10%;
+}
+.iconBtn{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width:10%;
+}
+.btns{
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 1000px) {
+    .btns {
+      visibility: hidden;
+    }
+  }
+
+  .cart{
+    position: relative;
+  }
+  .cart::before{
+    content:attr(data-count);
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+
+  }
+ 
+  /* MODALS CSS */
+  .modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }

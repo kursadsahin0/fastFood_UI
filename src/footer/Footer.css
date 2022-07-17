@@ -1,0 +1,11 @@
+ul li{
+    list-style: none;
+    color: #fff;
+    line-height: 250%;
+}
+.footer{
+    background-color: #7d493c;
+}
+.footers{
+    margin-top: 5%;
+}
